@@ -1,0 +1,42 @@
+body {
+    margin: 0px auto; 
+}
+
+div {
+    width: 150px;
+    height: 100px;
+    position: absolute;
+    border: 2px solid black;
+    text-align: center;
+}
+
+.square_1 {
+    background-color: blue;
+    left: 0;
+    top: 0;
+}
+
+.square_2 {
+    background-color: yellowgreen;
+    right: 0;
+    top: 0;
+}
+
+.square_3 {
+    background-color: aqua;
+    bottom: 0;
+    right: 0;
+} 
+
+.square_4 {
+    background-color: pink;
+    bottom: 0;
+    left: 0;
+}
+
+.square_5 {
+    background-color: red;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
